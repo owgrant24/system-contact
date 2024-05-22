@@ -4,3 +4,6 @@ server:
 spring:
   application:
     name: system-contact
+  data:
+    mongodb:
+      uri: mongodb://root:example@localhost:27017/system-contact?authSource=admin
